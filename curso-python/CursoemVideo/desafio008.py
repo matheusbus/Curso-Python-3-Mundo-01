@@ -1,0 +1,6 @@
+print('=' * 8, 'CONVERSOR DE MEDIDAS', '=' * 8)
+m = float(input('Digite uma medida em metros: '))
+print('Medida em metros: {} m'.format(m))
+print('Medida em decímetros: {} dm'.format(m*10))
+print('Medida em centímetros: {:.0f} cm'.format(m * 100))
+print('Medida em milímetros: {:.0f} mm'.format(m * 1000))
